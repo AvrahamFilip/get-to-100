@@ -1,0 +1,104 @@
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.App {
+  width: 500px;
+  margin: 0 auto;
+  /* background-color: #fff; */
+}
+
+.App-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.login input,
+.login button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+}
+
+.login input {
+  border-radius: 5px;
+}
+
+.login button {
+  background-color: #000;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.game {
+  width: 500px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.divAllPlayer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.player {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.playerDetails {
+  display: flex;
+  flex-direction: column;
+}
+
+.playerDetails p {
+  margin: 5px 0;
+}
+
+.buttonActions {
+  margin: 5px 0;
+}
+
+.winner {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.winner .player {
+  border: none;
+}
+
+.winner .player .playerDetails {
+  background-color: #000;
+  color: #fff;
+  border: none;
+}
+
+.winner .player .buttonActions {
+  background-color: #000;
+  color: #fff;
+  border: none;
+}
